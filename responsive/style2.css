@@ -1,0 +1,24 @@
+@media only screen and (max-width: 500px) {
+    main {
+        height: 70vh;
+    }
+    #fristdiv {
+        width: 80%;
+        padding: 70% 0 0 10%;
+    }
+    #fristdiv > h1 {
+          font-size: 3rem;
+          line-height: 1.1;
+    }
+    .seconddiv{
+        gap: 0;
+        height: 0;
+        flex-direction: column;
+        padding: 5rem 1.5rem;
+        height: 6rem;
+    }
+    .seconddiv > .one {
+        width: 100%;
+    }
+
+}
